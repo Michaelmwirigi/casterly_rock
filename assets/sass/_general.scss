@@ -1,0 +1,106 @@
+//new fonts
+@font-face {
+    font-family: 'geared_slabbold';
+    src: url('../fonts/gearedslab-bold-webfont.eot');
+    src: url('../fonts/gearedslab-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gearedslab-bold-webfont.woff') format('woff'),
+         url('../fonts/gearedslab-bold-webfont.ttf') format('truetype'),
+         url('../fonts/gearedslab-bold-webfont.svg#geared_slabbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'geared_slabthin';
+    src: url('../fonts/gearedslab-light-webfont.eot');
+    src: url('../fonts/gearedslab-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gearedslab-light-webfont.woff') format('woff'),
+         url('../fonts/gearedslab-light-webfont.ttf') format('truetype'),
+         url('../fonts/gearedslab-light-webfont.svg#geared_slabthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'geared_slabregular';
+    src: url('../fonts/gearedslab-webfont.eot');
+    src: url('../fonts/gearedslab-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gearedslab-webfont.woff') format('woff'),
+         url('../fonts/gearedslab-webfont.ttf') format('truetype'),
+         url('../fonts/gearedslab-webfont.svg#geared_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Colours */ 
+/* ==================================================== */
+$white:#fff;
+$brown:#a44d1b;
+$orange:#f2b553;
+$grey:#6c6c6c;
+$purple:#92278e;
+$black:#1d181c;
+$gutter:50px;
+$text-color:#888;
+
+
+
+
+/* fonts*/ 
+/* ==================================================== */
+$font-bold: 'geared_slabbold', Helvetica, sans-serif;
+
+$font-light: 'geared_slabthin', Helvetica, sans-serif;
+
+$font-regular: 'geared_slabregular', Helvetica, sans-serif;
+
+/* Mixins*/ 
+/* ==================================================== */
+@mixin box-sizing{
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  -o-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin animaxn{
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+
+@mixin link {
+  text-decoration: none;
+  border: 0 none;
+  outline: none;
+  cursor: pointer;
+}
+  
+/* image */
+@mixin image {
+  width: 100%; 
+  height: auto; 
+  margin: 0; 
+  padding: 0;
+  border: 0; 
+  outline: none;
+}
+
+

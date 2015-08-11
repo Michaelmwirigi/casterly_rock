@@ -1,4 +1,5 @@
 <?php
+define('ASSETS_URL', 'http://localhost/casterly_rock/assets/');
 /**
  * CodeIgniter
  *

@@ -1,0 +1,78 @@
+    header{
+      .item{
+        .ui.button{
+          //padding: 0;
+        }
+      }
+    }
+    .hidden.menu {
+      display: none;
+    }
+    .masthead{
+      padding: 0 !important;
+      height: 100vh;
+      min-height: 500px;
+      padding: 1em 0em;
+      background-image: url("../images/chicken1.jpg");
+      background-position: center; 
+      background-size: cover;
+      .logo.item img {
+        margin-right: 1em;
+      }
+      .ui.menu .ui.button {
+        margin-left: 0.5em;
+      }
+      h1.ui.header {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 4em;
+        font-weight: normal;
+      }
+      h2 {
+        font-size: 1.7em;
+        font-weight: normal;
+      }
+      .location_picker{
+        h3{
+          margin: 1rem 0 !important;
+        }
+      }
+    }
+
+    .ui.vertical.stripe {
+      padding: 8em 0em;
+
+      h3 {
+        font-size: 2em;
+      }  
+      .button + h3, p + h3 {
+        margin-top: 3em;
+      }
+      .floated.image {
+        clear: both;
+      }
+      p {
+        font-size: 1.33em;
+      }
+      .horizontal.divider {
+        margin: 3em 0em;
+      }
+
+    }
+    
+
+    .quote.stripe.segment {
+      padding: 0em;
+
+      .grid .column {
+        padding-top: 5em;
+        padding-bottom: 5em;
+      }
+    }
+   
+
+    .footer.segment {
+      padding: 5em 0em;
+    }
+
+    
