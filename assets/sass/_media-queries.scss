@@ -1,5 +1,7 @@
 @media only screen and (max-width: 1500px){
- 
+	.computer_hide{
+		display: none !important;
+	}
 
 }//max width 1500
 
@@ -27,7 +29,12 @@
 }//max width 960
 
 @media only screen and (max-width: 768px){
-
+.computer_hide{
+	display: inherit !important;
+}
+.tablet_hide{
+ 	display: none !important;
+ }
 }//max width 768
 
 @media only screen and (max-width: 700px) {
